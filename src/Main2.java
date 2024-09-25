@@ -8,11 +8,19 @@ public class Main2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input X: ");
-        double x = sc.nextDouble();
-        System.out.print("Input Y: ");
-        double y = sc.nextDouble();
+        printColor(1,3);
+        printColor(3,2);
+        printColor(0,10);
+        printColor(-3,1);
+        printColor(-1,1);
+        printColor(0,-1);
+        printColor(-3,4);
+        printColor(-20,-20);
+    }
 
+    public static printColor(double x, double y) {
+        System.out.print("Input X: "+x);
+        System.out.print("Input Y: "+y);
         System.out.println("("+x+", "+y+") -> "+getColor(x,y));
     }
 
