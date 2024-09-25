@@ -19,8 +19,8 @@ public class Main2 {
     }
 
     public static printColor(double x, double y) {
-        System.out.print("Input X: "+x);
-        System.out.print("Input Y: "+y);
+        System.out.println("Input X: "+x);
+        System.out.println("Input Y: "+y);
         System.out.println("("+x+", "+y+") -> "+getColor(x,y));
     }
 
